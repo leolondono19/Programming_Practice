@@ -11,12 +11,17 @@ internal class Program
         string result = longestPrefix.LongestCommonPrefix(test);
         Console.WriteLine(result);
         */
-        
+        /*
         string test = "MCMXCIV";
         RomanNumbers romanNumbers = new RomanNumbers();
         int result = romanNumbers.RomanToInt(test);
         Console.WriteLine(result);
-        
+        */
+        string test1 = "stdbutsad";
+        string needle = "sad";
+        FirstOccurrences firstOccurrences = new FirstOccurrences();
+         int result = firstOccurrences.StrStr(test1, needle);
+        Console.WriteLine(result);
     }
 
 
