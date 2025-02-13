@@ -17,7 +17,7 @@ internal class Program
         int result = romanNumbers.RomanToInt(test);
         Console.WriteLine(result);
         */
-        string test1 = "stdbutsad";
+        string test1 = "sadbutsad";
         string needle = "sad";
         FirstOccurrences firstOccurrences = new FirstOccurrences();
          int result = firstOccurrences.StrStr(test1, needle);

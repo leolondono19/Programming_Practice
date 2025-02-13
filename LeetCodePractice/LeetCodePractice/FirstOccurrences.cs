@@ -50,6 +50,9 @@ haystack = "sdbutsad", needle = "sad"
 
 haystack = "sdbutsa", needle = "sad"
 
+CASO QUE FALLO:
+haystack = "mississippi", needle = "issip"
+
 
 Hagarramos la primera letra de needle y buscamos su igualdad en haystack
 si hay igualdad seguimos con la segunda letra de needle hasta completar y ver si realmente needle tiene ocurrencia en haystack
