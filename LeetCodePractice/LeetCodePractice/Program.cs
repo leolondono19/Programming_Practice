@@ -24,9 +24,9 @@ internal class Program
         int result = firstOccurrences.StrStr(test1, needle);
         Console.WriteLine(result);
         */
-        string test = "leetcode";
+        string test = "iiii";
         SumOfDigits sumOfDigits = new SumOfDigits();
-        int result = sumOfDigits.GetLucky(test, 2);
+        int result = sumOfDigits.GetLucky(test, 1);
         Console.WriteLine(result);
     }
 
