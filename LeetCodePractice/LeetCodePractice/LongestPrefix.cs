@@ -82,7 +82,7 @@ namespace LeetCodePractice
     - Revisar una sola letra de cada palabra
     - Comparar las letras
     - Si son iguales, se añade al string resultado
-    - Si una letra ya es diferente, el proceso termina
+    - Si una letra ya es diferente, el proceso termina 
 
      
      */

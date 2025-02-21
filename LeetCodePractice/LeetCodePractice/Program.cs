@@ -17,10 +17,16 @@ internal class Program
         int result = romanNumbers.RomanToInt(test);
         Console.WriteLine(result);
         */
+        /*
         string test1 = "sadbutsad";
         string needle = "sad";
         FirstOccurrences firstOccurrences = new FirstOccurrences();
-         int result = firstOccurrences.StrStr(test1, needle);
+        int result = firstOccurrences.StrStr(test1, needle);
+        Console.WriteLine(result);
+        */
+        string test = "leetcode";
+        SumOfDigits sumOfDigits = new SumOfDigits();
+        int result = sumOfDigits.GetLucky(test, 2);
         Console.WriteLine(result);
     }
 
