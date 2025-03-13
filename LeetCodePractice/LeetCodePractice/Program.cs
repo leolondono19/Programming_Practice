@@ -24,10 +24,45 @@ internal class Program
         int result = firstOccurrences.StrStr(test1, needle);
         Console.WriteLine(result);
         */
+        /*
         string test = "iiii";
         SumOfDigits sumOfDigits = new SumOfDigits();
         int result = sumOfDigits.GetLucky(test, 1);
         Console.WriteLine(result);
+        */
+        /*
+        string word = "zb";
+        MinimumTime minimumTime = new MinimumTime();
+        int result = minimumTime.MinTimeToType(word);
+        Console.WriteLine(result);
+        */
+        /*
+        string test = "luffy is still joyboy";
+        LastWordLength lastWordLength = new LastWordLength();
+        int result = lastWordLength.LengthOfLastWord(test);
+        Console.WriteLine(result);
+        */
+        /*
+        string test = "a";
+        string[] words = { "aa", "aaaa", "banana" };
+        PrefixOfArray prefixOfArray = new PrefixOfArray();
+        bool result = prefixOfArray.IsPrefixString(test, words);
+        Console.WriteLine(result);
+        */
+        /*
+        string word = "aaaaabbbbb";
+        string[] subWords = { "a", "b", "c" };
+        SubstringsInWord substringsInWord = new SubstringsInWord();
+        int result = substringsInWord.NumOfStrings(subWords, word);
+        Console.WriteLine(result);
+        */
+
+        string a = "1";
+        string b = "1";
+        BinaryString binaryString = new BinaryString();
+        string result = binaryString.AddBinary(a, b);
+        Console.WriteLine(result);
+
     }
 
 
