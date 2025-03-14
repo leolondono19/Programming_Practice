@@ -56,13 +56,19 @@ internal class Program
         int result = substringsInWord.NumOfStrings(subWords, word);
         Console.WriteLine(result);
         */
-
+        /*
         string a = "1";
         string b = "1";
         BinaryString binaryString = new BinaryString();
         string result = binaryString.AddBinary(a, b);
         Console.WriteLine(result);
+        */
 
+        string test = "abcdefd";
+        char ch = 'd';
+        ReversePrefixOfWord reversePrefixOfWord = new ReversePrefixOfWord();
+        string result = reversePrefixOfWord.ReversePrefix(test, ch);
+        Console.WriteLine(result);
     }
 
 
