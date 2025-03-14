@@ -63,12 +63,19 @@ internal class Program
         string result = binaryString.AddBinary(a, b);
         Console.WriteLine(result);
         */
-
+        /*
         string test = "abcdefd";
         char ch = 'd';
         ReversePrefixOfWord reversePrefixOfWord = new ReversePrefixOfWord();
         string result = reversePrefixOfWord.ReversePrefix(test, ch);
         Console.WriteLine(result);
+        */
+
+        string[] operations = { "--X", "X++", "X++" };
+        PerformingOperations performingOperations = new PerformingOperations();
+        int result = performingOperations.FinalValueAfterOperations(operations);
+        Console.WriteLine(result);
+
     }
 
 
